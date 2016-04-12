@@ -1,4 +1,4 @@
-
+from random import randint
 
 def restaurant_ratings(file_name):
     """Read a file and returns dictionary of restaurant ratings."""
@@ -33,6 +33,8 @@ restaurants = restaurant_ratings('scores.txt')
 # add it to your dictionary
 
 #call dictionary print function
+
+
 
 your_name = raw_input('What is your name? ')
 name = raw_input('what is your restaurant name? ')
